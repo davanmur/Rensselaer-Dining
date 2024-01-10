@@ -1,0 +1,168 @@
+body {
+  margin: auto;
+  background-color: #efeeee;
+}
+
+/* div {
+   outline-color:black;
+   outline-style:black;
+   outline-width: 1 px;
+   width: 90%
+} */
+
+.header {
+  margin: auto;
+  padding: 2px 16px;
+  background-color: #232323;
+  font-size: 22px;
+  color: #e1e1e1;
+}
+
+.header h1 {
+  margin: 12px;
+}
+
+.header img {
+  width: 50px;
+  margin: 10px 0px;
+  margin-right: 20px;
+  float: left;
+}
+
+/*---------------topnav-----------------*/
+
+.topnav {
+  background-color: #b83a3a;
+  overflow: hidden;
+}
+
+.topnav a {
+   float: left;
+   padding: 14px;
+   text-align: center;
+   color: #e1e1e1;
+   font-family: 'DM Serif Display'; 
+   text-decoration: none;
+   font-size: 18px;
+}
+
+.topnav a.active {
+   background-color: #8e2626;
+}
+
+.topnav a:hover {
+   background-color: #e1e1e1;
+   color: #932e2e;
+}
+
+/*-------------Home-Page----------------*/
+
+h3 {
+  margin: auto;
+  padding: 20px;
+  font-size: 35px;
+  color: #363636;
+}
+
+.main-area {
+  font-size: 17px;
+}
+
+h2 {
+  margin: 6px;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.row, .row-4 {
+  float: none;
+  margin: 0px 5%;
+  box-sizing: border-box;
+}
+
+.row-4 .column {
+  width: 22%
+}
+
+.column {
+  float: left;
+  width: 30%;
+  /* height: 400px;  */
+  margin-bottom: 30px;
+  padding: 1%;
+  font-size: 16px;
+  background-color: #dddddd;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.column ul {
+  padding: 0px 10px;
+  list-style-type: none;
+}
+
+.open {
+  color: #008402;
+}
+
+.closed {
+  color: #b83a3a;
+}
+
+/*----------Hours-of-Operation----------*/
+
+#week-bar {
+  margin: 20px 10% 50px;
+  text-align: center;
+  font-size: 0;
+}
+
+#week-bar button {
+  margin: auto;
+  padding: 15px 20px;
+  border-radius: 0;
+  border: 0;
+  font-size: 18px;
+  font-family: 'DM Serif Display'; 
+  box-shadow: 5px 5px 5px #565656;
+}
+
+.inactive {
+  background-color: #e1e1e1;
+  color: #6d2121;
+}
+
+.active {
+  background-color: #8e2626;
+  color: #dbdbdb;
+}
+
+#week-bar button:hover {
+  background-color: #c3c3c3;
+  color: #6d2121;
+  cursor: pointer;
+}
+
+#date-form {
+  margin: 2px 2px 2px 83%;
+}
+
+#date-form input {
+  font-family:'DM Serif Display';
+  padding: 6px;
+  font-size: 18px;
+  border: none;
+}
+
+#date-form #submit {
+  background-color: #e1e1e1;
+  color: #6d2121;
+}
+
+#date-form #submit:hover {
+  background-color: #c3c3c3;
+  color: #6d2121;
+}
+

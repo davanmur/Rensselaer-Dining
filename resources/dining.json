@@ -1,0 +1,117 @@
+{
+    "restaurants": [
+        {
+            "name": "Argo Tea",
+            "open": [0, 9, 9, 9, 9, 9, 0],
+            "close": [0, 18, 18, 18, 18, 16, 0],
+            "address": "Folsom Library, Second Floor"
+        },
+        {
+            "name": "The Beanery Cafe",
+            "open": [0, 7.5, 7.5, 7.5, 7.5, 7.5, 0],
+            "close": [0, 15, 15, 15, 15, 15, 0],
+            "address": "Sage Laboratory, First Floor"
+        },
+
+        {
+            "name": "DCC Cafe",
+            "open": [0, 7.5, 7.5, 7.5, 7.5, 7.5, 0],
+            "close": [0, 18, 18, 18, 18, 16, 0],
+            "address": "Darrin Communications Center, Second Floor"
+        },
+        {
+            "name": "Evelyn's Cafe",
+            "open": [0, 0, 0, 11, 0, 0, 0],
+            "close": [0, 0, 0, 14, 0, 0, 0],
+            "address": "EMPAC, Third Floor"
+            
+        },
+        {
+            "name": "Moe's",
+            "open": [12, 11, 11, 11, 11, 11, 12],
+            "close": [20, 20, 20, 20, 20, 20, 20],
+            "address": "1527 15th St, Troy, NY 12180"
+            
+        }
+    ],
+    "union": [
+        {
+            "name": "Ben & Jerry's",
+            "open": [14, 12, 12, 12, 12, 12, 14],
+            "close": [23, 23, 23, 23, 23, 23, 23],
+            "address": "First Floor"
+        },
+        {
+            "name": "Collar City Grill",
+            "open": [11, 11, 11, 11, 11, 11, 11],
+            "close": [23, 23, 23, 23, 23, 23, 23],
+            "address": "First Floor"
+        },
+        {
+            "name": "Father's Marketplace",
+            "open": [9.5, 8, 8, 8, 8, 8, 9.5],
+            "close": [23, 23, 23, 23, 23, 23, 23],
+            "address": "First Floor"
+        },
+        {
+            "name": "Halal Shack",
+            "open": [13, 17, 17, 17, 17, 17, 13],
+            "close": [22, 23, 23, 23, 23, 23, 22],
+            "address": "First Floor"
+        },
+        {
+            "name": "Panera Bread",
+            "open": [9.5, 8, 8, 8, 8, 8, 9.5],
+            "close": [20, 20, 20, 20, 20, 20, 20],
+            "address": "Second Floor"
+        },
+        {
+            "name": "Thunder Mountain Curry",
+            "open": [0, 11, 11, 11, 11, 11, 0],
+            "close": [0, 15, 15, 15, 15, 15, 0],
+            "address": "First Floor"
+        },
+        {
+            "name": "Wild Blue Sushi",
+            "open": [11, 11, 11, 11, 11, 11, 11],
+            "close": [22, 22, 22, 22, 22, 22, 22],
+            "address": "First Floor"
+        }
+    ],
+    "dining": [
+        {
+            "name": "BARH",
+            "break_open": [11, 7.5, 7.5, 7.5, 7.5, 7.5, 11],
+            "break_close": [13, 9.5, 9.5, 9.5, 9.5, 9.5, 13],
+            "dinner_open": [0, 17, 17, 17, 17, 17, 0],
+            "dinner_close": [0, 21, 21, 21, 21, 21, 0],
+            "address": "2122 Burdett Ave, Troy, NY 12180"
+        },
+        {
+            "name": "Blitman",
+            "break_open": [10.5, 7, 7, 7, 7, 7, 10.5],
+            "break_close": [13.5, 9.5, 9.5, 9.5, 9.5, 9.5, 13.5],
+            "dinner_open": [0, 17, 17, 17, 17, 17, 0],
+            "dinner_close": [0, 20, 20, 20, 20, 20, 0],
+            "address": "1800 6th Ave, Troy, NY 12180"
+        },
+
+        {
+            "name": "Commons",
+            "break_open": [9, 7.5, 7.5, 7.5, 7.5, 7.5, 9],
+            "break_close": [23, 23, 23, 23, 23, 21, 21],
+            "dinner_open": [0, 0, 0, 0, 0, 0, 0],
+            "dinner_close": [0, 0, 0, 0, 0, 0, 0],
+            "address": "1999 Burdett Ave, Troy, NY 12180"
+        },
+        {
+            "name": "Russell Sage",
+            "break_open": [13.5, 7, 7, 7, 7, 7, 13.5],
+            "break_close": [17, 20, 20, 20, 20, 20, 17],
+            "dinner_open": [0, 0, 0, 0, 0, 0, 0],
+            "dinner_close": [0, 0, 0, 0, 0, 0, 0],
+            "address": "Russel Sage Dining Hall, Troy, NY 12180"
+            
+        }
+    ]
+}
